@@ -1,0 +1,65 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>img/usa.jpg</file>
+        <file>img/bubble.png</file>
+        <file>img/fact.png</file>
+        <file>img/pifagor.jpg</file>
+        <file>img/arrow.jpg</file>
+        <file>img/TWhoQi.jpg</file>
+        <file>img/Arrow_left.png</file>
+        <file>img/2183585b41e7.png</file>
+        <file>img/Q.png</file>
+        <file>img/B.png</file>
+        <file>img/M.jpg</file>
+        <file>img/blue-bubbles-9789.jpg</file>
+        <file>img/img_7418.png</file>
+        <file>img/laptop.png</file>
+        <file>img/unnamed.png</file>
+        <file>img/Elegant_Background-3.jpg</file>
+        <file>img/refresh.png</file>
+        <file>img/Creative-Tail-Halloween-tree.svg.png</file>
+        <file>img/depositphotos_9101833-stock-photo-grass-letter-r.jpg</file>
+        <file>img/----945x945.gif</file>
+        <file>img/0001.png</file>
+        <file>img/Manager_Icon_thumb.png</file>
+        <file>img/Hammer_and_sickle_red_on_transparent.svg_-1024x1024.png</file>
+        <file>img/i.jpg</file>
+        <file>img/check.jpg</file>
+        <file>img/checkbox_drow_checked.png</file>
+        <file>img/checkbox_drow_unchecked.png</file>
+        <file>img/replay-10-second-3b91bb72247954c0-256x256.png</file>
+        <file>img/kypluk.ico</file>
+        <file>img/Green-Bubbles-Background.jpg</file>
+        <file>img/no-translate-detected_318-42569.jpg</file>
+        <file>img/no-translate-detected_318-42578.jpg</file>
+        <file>img/yannis-papanastasopoulos-340526-unsplash.jpg</file>
+        <file>img/icons8-menu-50.png</file>
+        <file>img/icons8-toDown-32 (2).png</file>
+        <file>img/icons8-toDown-32.png</file>
+        <file>img/icons8-toLeft-32.png</file>
+        <file>img/icons8-toRight-50.png</file>
+        <file>img/bady-qb-42758-unsplash.jpg</file>
+        <file>img/icons8-round-filled-50.png</file>
+        <file>img/icons8-razer-32.png</file>
+        <file>img/icons8-toDownest.gif</file>
+        <file>img/icons8-toUppest-32.gif</file>
+        <file>img/andrew-seaman-746845-unsplash.jpg</file>
+        <file>img/david-marcu-114194-unsplash.jpg</file>
+        <file>img/icons8-down-button-filled-50.png</file>
+        <file>img/icons8-slide-up-filled-50.png</file>
+        <file>img/icons8-sort-down-30.png</file>
+        <file>img/icons8-sort-down-40.png</file>
+        <file>img/icons8-slide-up-64.png</file>
+        <file>img/icons8-below-32.png</file>
+        <file>img/icons8-scroll-up-32.png</file>
+        <file>img/thomas-tixtaaz-119883-unsplash.jpg</file>
+        <file>img/tim-marshall-82948-unsplash.jpg</file>
+        <file>img/icons8-linux-filled-50.png</file>
+        <file>img/icons8-windows-xp-26.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>fonts/SantEliaRoughAltBoldThrDEMO.otf</file>
+        <file>translations/translate_RU.qm</file>
+        <file>translations/translate_RU.ts</file>
+    </qresource>
+</RCC>

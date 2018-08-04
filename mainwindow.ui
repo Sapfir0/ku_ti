@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>482</width>
+    <height>410</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="logo">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(238, 238, 236);
+text-align: center ;
+font-size: 22px;</string>
+        </property>
+        <property name="text">
+         <string> S&amp;K production</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="function_button">
+          <property name="minimumSize">
+           <size>
+            <width>92</width>
+            <height>21</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>544</width>
+            <height>34</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+background-color: grey;
+font-family: wg_silverleaf, Arial, Helvetica, sans-serif;
+border: 2px double black;
+border-radius: 5px;
+color: white;
+ max-width: 36em;
+
+ max-height: 2em;
+}
+QPushButton:hover {
+background-color: white;;
+color: black;
+}
+
+
+</string>
+          </property>
+          <property name="text">
+           <string>Function</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="time_calculate">
+          <property name="minimumSize">
+           <size>
+            <width>91</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>544</width>
+            <height>34</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+background-color: grey;
+border: 2px double black;
+border-radius: 5px;
+font-family: wg_silverleaf;
+color: white;
+ max-width: 36em;
+
+ max-height: 2em;
+}
+QPushButton:hover {
+background-color: white;;
+color: black;
+}
+
+
+</string>
+          </property>
+          <property name="text">
+           <string>Time calculate</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="constructor">
+        <property name="minimumSize">
+         <size>
+          <width>33</width>
+          <height>35</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton { 
+background-color: grey;
+border: 2px double black;
+border-radius: 5px;
+color: white;
+font-family: wg_silverleaf;
+ max-width: 36em;
+
+ max-height: 2em;
+}
+QPushButton:hover {
+background-color: white;;
+color: black;
+}
+
+
+</string>
+        </property>
+        <property name="text">
+         <string>Constructor</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
