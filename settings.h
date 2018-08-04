@@ -22,6 +22,10 @@ private slots:
 
     void on_checkBox_stateChanged(bool arg1);
 
+    void on_buttonBox_accepted();
+    void reject();
+    void accept();
+
 private:
     Ui::settings *ui;
 };

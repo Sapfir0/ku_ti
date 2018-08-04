@@ -32,7 +32,7 @@ ui(new Ui::time_calculate_window)
     ui->toolBar->setMovable(false);
 
     timer=new QTimer(this);
-    connect(timer, SIGNAL(timeout()), this, SLOT(what_do_every_mc())); //что делать каждый тик
+    connect(timer, SIGNAL(timeout()), this, SLOT(what_do_every_mc())); //пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
 
     int id = QFontDatabase::addApplicationFont(":/fonts/SantEliaRoughAltBoldThrDEMO.otf"); //i fuck our users
     QString family = QFontDatabase::applicationFontFamilies(id).at(0); //use my fonts, biches
@@ -146,4 +146,9 @@ void time_calculate_window::on_actionSettings_triggered()
 {
     hide();
     new settings(this);
+}
+
+void time_calculate_window::on_actionLet_s_try_triggered()
+{
+
 }

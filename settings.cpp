@@ -6,6 +6,11 @@
 #include <QFile>
 #include <QTranslator>
 #include <QDebug>
+#include <QPushButton>
+
+#include "windows/constructor/constructor_window.h"
+#include "windows/time_calculate/time_calculate_window.h"
+#include "windows/function/function_window.h"
 
 settings::settings(QWidget *parent) :
     QDialog(parent),
@@ -99,3 +104,26 @@ void settings::on_checkBox_stateChanged(bool arg1)
     }
 }
 
+
+void settings::on_buttonBox_accepted()
+{
+    ui->buttonBox = new QDialogButtonBox(QDialogButtonBox::Ok
+                                         | QDialogButtonBox::Cancel);
+
+    connect(ui->buttonBox, SIGNAL(accepted()), this, SLOT(accept()));
+    connect(ui->buttonBox, SIGNAL(rejected()), this, SLOT(reject()));
+}
+
+void settings::accept()
+{
+
+    qDebug() << "ac";
+
+
+}
+
+void settings::reject()
+{
+    qDebug() << "rej";
+    delete this;
+}

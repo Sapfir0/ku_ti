@@ -105,7 +105,7 @@ color: white;
           <string>Bubble sorting</string>
          </property>
          <property name="icon">
-          <iconset resource="yahzwhatisit.qrc">
+          <iconset resource="../../yahzwhatisit.qrc">
            <normaloff>:/new/prefix1/img/B.png</normaloff>:/new/prefix1/img/B.png</iconset>
          </property>
         </item>
@@ -114,7 +114,7 @@ color: white;
           <string>Merge sorting</string>
          </property>
          <property name="icon">
-          <iconset resource="yahzwhatisit.qrc">
+          <iconset resource="../../yahzwhatisit.qrc">
            <normaloff>:/new/prefix1/img/M.jpg</normaloff>:/new/prefix1/img/M.jpg</iconset>
          </property>
         </item>
@@ -123,7 +123,7 @@ color: white;
           <string>Quick sorting</string>
          </property>
          <property name="icon">
-          <iconset resource="yahzwhatisit.qrc">
+          <iconset resource="../../yahzwhatisit.qrc">
            <normaloff>:/new/prefix1/img/Q.png</normaloff>:/new/prefix1/img/Q.png</iconset>
          </property>
         </item>
@@ -132,7 +132,7 @@ color: white;
           <string>Tree sorting</string>
          </property>
          <property name="icon">
-          <iconset resource="yahzwhatisit.qrc">
+          <iconset resource="../../yahzwhatisit.qrc">
            <normaloff>:/new/prefix1/img/Creative-Tail-Halloween-tree.svg.png</normaloff>:/new/prefix1/img/Creative-Tail-Halloween-tree.svg.png</iconset>
          </property>
         </item>
@@ -141,7 +141,7 @@ color: white;
           <string>Radix sorting</string>
          </property>
          <property name="icon">
-          <iconset resource="yahzwhatisit.qrc">
+          <iconset resource="../../yahzwhatisit.qrc">
            <normaloff>:/new/prefix1/img/depositphotos_9101833-stock-photo-grass-letter-r.jpg</normaloff>:/new/prefix1/img/depositphotos_9101833-stock-photo-grass-letter-r.jpg</iconset>
          </property>
         </item>
@@ -640,7 +640,7 @@ QMenuBar::item:pressed {
       <string>Language</string>
      </property>
      <property name="icon">
-      <iconset resource="yahzwhatisit.qrc">
+      <iconset resource="../../yahzwhatisit.qrc">
        <normaloff>:/new/prefix1/img/Hammer_and_sickle_red_on_transparent.svg_-1024x1024.png</normaloff>:/new/prefix1/img/Hammer_and_sickle_red_on_transparent.svg_-1024x1024.png</iconset>
      </property>
      <addaction name="actionEnglish"/>
@@ -650,7 +650,14 @@ QMenuBar::item:pressed {
     <addaction name="menuLanguage"/>
     <addaction name="actionSettings"/>
    </widget>
+   <widget class="QMenu" name="menuAdd_sort">
+    <property name="title">
+     <string>Add sort</string>
+    </property>
+    <addaction name="actionLet_s_try"/>
+   </widget>
    <addaction name="menuSettings"/>
+   <addaction name="menuAdd_sort"/>
   </widget>
   <widget class="QStatusBar" name="statusbar">
    <property name="styleSheet">
@@ -688,7 +695,7 @@ QToolBar::item:selected { /* when user selects item using mouse or keyboard */
   </widget>
   <action name="actionEnglish">
    <property name="icon">
-    <iconset resource="yahzwhatisit.qrc">
+    <iconset resource="../../yahzwhatisit.qrc">
      <normaloff>:/new/prefix1/img/usa.jpg</normaloff>:/new/prefix1/img/usa.jpg</iconset>
    </property>
    <property name="text">
@@ -711,7 +718,7 @@ QToolBar::item:selected { /* when user selects item using mouse or keyboard */
   </action>
   <action name="actionBack">
    <property name="icon">
-    <iconset resource="yahzwhatisit.qrc">
+    <iconset resource="../../yahzwhatisit.qrc">
      <normaloff>:/new/prefix1/img/Arrow_left.png</normaloff>:/new/prefix1/img/Arrow_left.png</iconset>
    </property>
    <property name="text">
@@ -723,7 +730,7 @@ QToolBar::item:selected { /* when user selects item using mouse or keyboard */
   </action>
   <action name="actionRefresh">
    <property name="icon">
-    <iconset resource="yahzwhatisit.qrc">
+    <iconset resource="../../yahzwhatisit.qrc">
      <normaloff>:/new/prefix1/img/2183585b41e7.png</normaloff>:/new/prefix1/img/2183585b41e7.png</iconset>
    </property>
    <property name="text">
@@ -732,16 +739,21 @@ QToolBar::item:selected { /* when user selects item using mouse or keyboard */
   </action>
   <action name="actionSettings">
    <property name="icon">
-    <iconset resource="yahzwhatisit.qrc">
+    <iconset resource="../../yahzwhatisit.qrc">
      <normaloff>:/new/prefix1/img/Manager_Icon_thumb.png</normaloff>:/new/prefix1/img/Manager_Icon_thumb.png</iconset>
    </property>
    <property name="text">
     <string>Settings</string>
    </property>
   </action>
+  <action name="actionLet_s_try">
+   <property name="text">
+    <string>Let's try!</string>
+   </property>
+  </action>
  </widget>
  <resources>
-  <include location="yahzwhatisit.qrc"/>
+  <include location="../../yahzwhatisit.qrc"/>
  </resources>
  <connections/>
 </ui>

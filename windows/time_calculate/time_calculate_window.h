@@ -87,6 +87,8 @@ class time_calculate_window : public QMainWindow
 
         void on_actionSettings_triggered();
 
+        void on_actionLet_s_try_triggered();
+
 private:
 		Ui::time_calculate_window *ui;
 		QWidget * mainwin;
