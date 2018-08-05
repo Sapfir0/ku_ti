@@ -33,7 +33,8 @@ SOURCES += \
     windows/time_calculate/librarys/sort.cpp \
     settings.cpp \
     windows/time_calculate/more_one_sorting.cpp \
-    windows/time_calculate/librarys/write_sort.cpp
+    windows/time_calculate/write_sort.cpp \
+    windows/time_calculate/librarys/color_progress_bar.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -43,7 +44,8 @@ HEADERS += \
     windows/time_calculate/librarys/sort.h \
     settings.h \
     windows/time_calculate/more_one_sorting.h \
-    windows/time_calculate/librarys/write_sort.h
+    windows/time_calculate/write_sort.h \
+    windows/time_calculate/librarys/color_progress_bar.h
 
 FORMS += \
         mainwindow.ui \
@@ -52,7 +54,7 @@ FORMS += \
     windows/function/function_window.ui \
     settings.ui \
     windows/time_calculate/more_one_sorting.ui \
-    windows/time_calculate/librarys/write_sort.ui
+    windows/time_calculate/write_sort.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -2,6 +2,7 @@
 #include "ui_time_calculate_window.h"
 
 #include "windows/time_calculate/more_one_sorting.h"
+#include "windows/time_calculate/librarys/color_progress_bar.h"
 
 time_calculate_window::time_calculate_window(QWidget *parent) :
 QMainWindow(parent),
@@ -112,7 +113,6 @@ void time_calculate_window::resizeEvent(QResizeEvent *evt) //heh its nice func, 
 void time_calculate_window::on_progressBar_valueChanged(int value)
 {
     Q_UNUSED(value);
-
     QString red_style = "QProgressBar {border: 1px solid grey;background-color: rgba(29, 55, 91, 10);border-radius: 5px;text-align: center;} "
                         "QProgressBar::chunk {background-color: rgba(255, 0, 0, 140);}";
     QString orange_style= "QProgressBar {border: 1px solid grey;background-color: rgba(29, 55, 91, 10);border-radius: 5px;text-align: center;} "
@@ -124,20 +124,20 @@ void time_calculate_window::on_progressBar_valueChanged(int value)
     QString green_light_style= "QProgressBar {border: 1px solid grey;background-color: rgba(29, 55, 91, 10);border-radius: 5px;text-align: center;} "
                          "QProgressBar::chunk {background-color: rgba(173, 255, 47, 140);}";
 
-        if (ui->progressBar->value()<=10) //its dependence from progress bar's value
-            ui->progressBar->setStyleSheet(green_style);//and now we need to do
-                                                        //slow progress to nessessary value
-        else if (ui->progressBar->value()>10 && ui->progressBar->value()<30)
-            ui->progressBar->setStyleSheet(green_light_style);
+    if (ui->progressBar->value()<=10) //its dependence from progress bar's value
+        ui->progressBar->setStyleSheet(green_style);//and now we need to do
+                                                    //slow progress to nessessary value
+    else if (ui->progressBar->value()>10 && ui->progressBar->value()<30)
+        ui->progressBar->setStyleSheet(green_light_style);
 
-        else if (ui->progressBar->value()>=30 &&ui->progressBar->value()<50)
-            ui->progressBar->setStyleSheet(yellow_style);
+    else if (ui->progressBar->value()>=30 &&ui->progressBar->value()<50)
+        ui->progressBar->setStyleSheet(yellow_style);
 
-        else if (ui->progressBar->value()>=50 && ui->progressBar->value() < 70)
-            ui->progressBar->setStyleSheet(orange_style);
+    else if (ui->progressBar->value()>=50 && ui->progressBar->value() < 70)
+        ui->progressBar->setStyleSheet(orange_style);
 
-        else if (ui->progressBar->value()>=70 && ui->progressBar->value() <= 100)
-            ui->progressBar->setStyleSheet(red_style);
+    else if (ui->progressBar->value()>=70 && ui->progressBar->value() <= 100)
+        ui->progressBar->setStyleSheet(red_style);
 }
 
 void time_calculate_window::on_actionSettings_triggered()

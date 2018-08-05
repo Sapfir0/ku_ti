@@ -28,9 +28,12 @@ private slots:
 
     void reject();
     void accept();
+
     void on_buttonBox_accepted();
 
     void on_title_user_textChanged(const QString &arg1);
+
+    void on_progressBar_valueChanged(int value);
 
 private:
     Ui::More_one_sorting *ui;
