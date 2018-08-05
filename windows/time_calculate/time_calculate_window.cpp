@@ -1,9 +1,7 @@
 #include "time_calculate_window.h"
 #include "ui_time_calculate_window.h"
 
-#include <QFontDatabase>
-#include <QFile>
-#include "settings.h"
+#include "windows/time_calculate/more_one_sorting.h"
 
 time_calculate_window::time_calculate_window(QWidget *parent) :
 QMainWindow(parent),
@@ -150,5 +148,6 @@ void time_calculate_window::on_actionSettings_triggered()
 
 void time_calculate_window::on_actionLet_s_try_triggered()
 {
-
+    hide();
+    new More_one_sorting(this);
 }

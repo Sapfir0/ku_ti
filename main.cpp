@@ -1,7 +1,8 @@
 #include "mainwindow.h"
 #include <QApplication>
 #include <iostream>
-#include "settings.h"
+//#include "settings.h"
+#include "windows/time_calculate/more_one_sorting.h"
 
 int main(int argc, char *argv[])
 {
@@ -18,7 +19,8 @@ int main(int argc, char *argv[])
 #endif
 
 
-    MainWindow w;
+   // MainWindow w;
+    More_one_sorting w;
     w.show();
 
     return a.exec();

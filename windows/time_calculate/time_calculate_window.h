@@ -7,7 +7,10 @@
 #include <QGraphicsEffect>
 #include <QTimer>
 #include <QThread>
+#include <QFontDatabase>
+#include <QFile>
 
+#include "settings.h"
 #include "librarys/sort.h"
 
 namespace Ui {
